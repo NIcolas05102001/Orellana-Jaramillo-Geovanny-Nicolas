@@ -20,6 +20,8 @@ public class ControladorElectrodomestico {
     private VistaElectrodomestico vista;
     private Electrodomestico modelo;
     private IElectrodomesticoDAO dao;
+    
+    
 
     public ControladorElectrodomestico(VistaElectrodomestico vista, Electrodomestico modelo, IElectrodomesticoDAO dao) {
         this.vista = vista;
@@ -40,10 +42,12 @@ public class ControladorElectrodomestico {
     public void verLavadoras(){
         List<Lavadora> lavadoras;
         lavadoras = dao.listarLavadora();
+        vista.mostrarTLavadoras(lavadoras);
     }
     
     public void verTelevisores(){
         List<Televisor> televisores;
         televisores = dao.listarTelevisor();
+        vista.mostrarTelevisores(televisores);
     }
 }

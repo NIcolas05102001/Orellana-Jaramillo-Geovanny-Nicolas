@@ -102,7 +102,7 @@ public class Electrodomestico {
 
     @Override
     public String toString() {
-        return "Electrodomestico{" + "codigo=" + codigo + ", descripcion=" + descripcion + ", precioBase=" + precioBase + ", color=" + color + ", consumoEnergetico=" + consumoEnergetico + ", peso=" + peso + '}';
+        return "Electrodomestico{" + "codigo=" + codigo + ", descripcion=" + descripcion + ", precio Base=" + precioBase + ", color=" + color + ", consumoEnergetico=" + consumoEnergetico + ", peso=" + peso + '}';
     }
     
     public double obtenerPrecioFinal(){

@@ -55,7 +55,7 @@ public class Televisor extends Electrodomestico{
 
     @Override
     public String toString() {
-        return "Televisor{" + "resolucion=" + resolucion + ", puertoHDMI=" + puertoHDMI + "precio Final"+ super.obtenerPrecioFinal() + '}';
+        return "Televisor{" + "Codigo= " + super.getCodigo() + ", Peso=" + super.getPeso() + ", Precio base=" + super.getPrecioBase() + ", Color=" + super.getColor() + ", Descripcion=" + super.getDescripcion() + ", Consumo energetico=" + super.getConsumoEnergetico()  + ", resolucion=" + resolucion + ", puertoHDMI=" + puertoHDMI + ", precio Final"+ super.obtenerPrecioFinal() + '}';
     }
     
     

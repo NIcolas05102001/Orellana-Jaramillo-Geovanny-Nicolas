@@ -100,10 +100,14 @@ public class VistaElectrodomestico {
     }
 
     public void mostrarTelevisores(List<Televisor> lista) {
-
+        for (Televisor televisor : lista) {
+            System.out.println(lista);
+        }
     }
 
     public void mostrarTLavadoras(List<Lavadora> lista) {
-
+        for (Lavadora lavadora : lista) {
+            System.out.println(lista);
+        }
     }
 }
